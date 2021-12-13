@@ -1,0 +1,80 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+    font-family: 'Montagu Slab', serif;
+}
+
+.titulo {
+    font-family: 'Montagu Slab', serif;
+}
+
+.cotacao {
+font-size: 40px;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.titulo {
+    font-family:  'Arial Narrow Bold', sans-serif;
+    display: flex;
+align-items: center;
+justify-content: center;
+font-size: 70px;
+}
+
+.caixa {
+    border-radius: 10px;
+    height: flex;
+    width: 300px;
+    font-size: 30px;
+    border: solid 3px #000;
+    box-shadow: 4px 4px 4px 0px darkgrey ;
+}
+
+.inpu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.botao {
+
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px ;
+    color: #fff;
+    background-color: #666; 
+    box-shadow: 3px 3px 3px 0px black;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+}
+
+.posicao {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.result {
+    font-size: 50px;
+  
+    padding: 30px;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
